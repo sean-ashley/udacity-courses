@@ -47,6 +47,8 @@ I Used PyTorch to build CNNs for image recognition, RNNs for sequence generation
   simulated-seinfeld: An RNN that makes use of LSTM cells and Embedding layers to generate a brand new script for an episode of Seinfeld. 
   
   udacity-gans: A worksheet generating MNIST images using GANs
+  
+  Deep Learning Nanodegree Certificate.pdf: My certificate certifying I passed every assignment and completed the course.
 
 <!-- CONTACT -->
 ## Contact
