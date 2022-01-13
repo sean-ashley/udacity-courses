@@ -25,7 +25,7 @@
   <h3 align="center">Deep Learning Nanodegree</h3>
   
   <p align="center">
-    Here are all of the projects I worked on in this course. They include numerous different deep learning related concepts, such convolutional networks , recurrent networks, and generative adversarial networks.
+    Here are all of the projects I worked on in this course. They include numerous different deep learning related concepts, such convolutional networks , recurrent networks, and generative adversarial networks. The course can be found here: https://www.udacity.com/course/deep-learning-nanodegree--nd101
 
 <!-- ABOUT THE PROJECT -->
 ## What I Did in This Course
