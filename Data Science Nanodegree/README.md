@@ -25,10 +25,10 @@
   <h3 align="center">Data Science Nanodegree</h3>
   
   <p align="center">
-    You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts,
+    You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts.
 
 <!-- ABOUT THE PROJECT -->
-## About The Course
+## What I did in this course
 Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.
   
 
