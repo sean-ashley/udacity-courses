@@ -25,13 +25,19 @@
   <h3 align="center">Data Science Nanodegree</h3>
   
   <p align="center">
-    You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts.
+    Here are all of the project I worked on in this course.
 
 <!-- ABOUT THE PROJECT -->
 ## What I Did in This Course
 Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.
-  
 
+## Files
+  Airbnb-Predictor: As a part of my data science journey, I decided it would be fun to take the AirBNB dataset and answer some questions I had about house prices.
+  IBM_Recommender: Recommendation engine built with IBM, part of Udacity Data Science Nanodegree
+  Stroke-Prediction-App:  I trained and deployed an XGBoost Classifier to predict whether or not a user is likely to suffer from a stroke.
+  disaster-pipeline: This is a website that displays statistics about tweets during a disaster, and predicts what type of disaster tweet a user inputted message is.
+  Data Scientist Nanodegree Certificate.pdf: My certificate certifying I passed every assignment and completed the course.
+  
 <!-- CONTACT -->
 ## Contact
 
