@@ -28,14 +28,14 @@
     You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts.
 
 <!-- ABOUT THE PROJECT -->
-## What I did in this course
+## What I Did in This Course
 Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.
   
 
 <!-- CONTACT -->
 ## Contact
 
-Sean Ashley - sean.d.ashley@gmail.com
+Sean Ashley - sean.d.ashley@gmail.com , s2ashley@uwaterloo.ca
 
 
 
