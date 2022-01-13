@@ -1,0 +1,36 @@
+<html lang="en">
+    <header>
+        <title>Data Overview</title>
+        <link rel="stylesheet" href="../static/styleSheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </header>
+    <body style="background-color:#EFE6DD">
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navigation" style="background:#C59E77">
+                <li><a href="/" style="color:#FFFFFF">Predict</a></li>
+                <li><a href="https://www.linkedin.com/in/sean-ashley/" target="_blank" style="color:#FFFFFF"><img src="../static/linkedIn.png" height="30px"></a></li>
+                <li><a href="https://github.com/sean-ashley/Stroke-Prediction-App" target="_blank" style="color:#FFFFFF"><img src="../static/github.png" height="30px"></a></li>
+                <li><a href="mailto:sean.d.ashley@gmail.com" target="_blank" style="color:#FFFFFF">Email</a></li>
+                <li><a href="https://sean-ashley.medium.com/can-ai-predict-your-stroke-before-it-happens-feec17f12145" target="_blank" style="color:#FFFFFF">Article</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Data Overview Graphs -->
+        <center><h3 style="font-family:noto-sans;font-size:36px;">Data Overview</h3></center>
+        <div class="container">
+            {% for id in ids %}
+                <div id="{{id}}"></div>
+            {% endfor %}
+        </div>
+
+    <script type="text/javascript">
+        const graphs = {{graphJSON | safe}};
+        const ids = {{ids | safe}};
+        for(let i in graphs) {
+            Plotly.plot(ids[i], graphs[i].data, graphs[i].layout);
+        }
+    </script>
+        
+</html>

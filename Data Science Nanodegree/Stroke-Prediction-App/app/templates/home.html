@@ -1,0 +1,153 @@
+<html lang="eng">
+    <header>
+        <title>Prediction Form</title>
+        <link rel="stylesheet" href="../static/styleSheet.css">
+    </header>
+    <body style="background-color:#EFE6DD">
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navigation" style="background:#C59E77">
+                <li><a href="dataoverview" style="color:#FFFFFF">Data Overview</a></li>
+                <li><a href="https://www.linkedin.com/in/sean-ashley/" target="_blank" style="color:#FFFFFF"><img src="../static/linkedIn.png" height="30px"></a></li>
+                <li><a href="https://github.com/sean-ashley/Stroke-Prediction-App" target="_blank" style="color:#FFFFFF"><img src="../static/github.png" height="30px"></a></li>
+                <li><a href="mailto:sean.d.ashley@gmail.com" target="_blank" style="color:#FFFFFF">Email</a></li>
+                <li><a href="https://sean-ashley.medium.com/can-ai-predict-your-stroke-before-it-happens-feec17f12145" target="_blank" style="color:#FFFFFF">Article</a></li>
+            </ul>
+        </nav>
+
+        <!-- Prediction Form -->
+        <form>
+            <div class="page-row">
+                <!-- Column 1 -->
+                <div class="column">
+                    <h3>Gender</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="male" value="Male" name="gender" required><label for="male">Male</label><input type="radio" id="female" value="Female" name="gender" required><label for="female">Female</label><input type="radio" id="other" value="Other" name="gender" required><label for="other">Other</label>
+                        </div>
+                    </div>
+
+                    <h3>Age</h3>
+                    <div class="small-row">
+                        <input type="number" min="0" max="130" placeholder="Age" name="age" id="age" class="text-input" step="1" required>
+                    </div>
+
+                    <h3>Hypertension</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="hyp-true" value="1" name="hypertension" required><label for="hyp-true">Yes</label><input type="radio" id="hyp-false" value="0" name="hypertension" required><label for="hyp-false">No</label>
+                        </div>
+                    </div>
+
+                    <h3>Heart Disease</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="heart-true" value="1" name="heart-disease" required><label for="heart-true">Yes</label><input type="radio" id="heart-false" value="0" name="heart-disease" required><label for="heart-false">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="column">
+                    <h3>Diabetes</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="diabetes-true" value="1" name="diabetes" required><label for="diabetes-true">Yes</label><input type="radio" id="diabetes-false" value="0" name="diabetes" required><label for="diabetes-false">No</label>
+                        </div>
+                    </div>
+
+                    <h3>Marital Status</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="marriage-true" value="1" name="marriage" required><label for="marriage-true">Married/Previously Married</label><input type="radio" id="marriage-false" value="0" name="marriage" required><label for="marriage-false">Never Married</label>
+                        </div>
+                    </div>
+
+                    <h3>Work Environment</h3>
+                    <div class="small-row">
+                        <select name="work" id="work" class="dropdown-list" required>
+                            <option disabled selected value>-- Select --</option>
+                            <option value="Private">Private</option>
+                            <option value="Self-employed">Self-Employed</option>
+                            <option value="Govt_job">Government Job</option>
+                            <option value="Never_worked">Never Worked</option>
+                            <option value='children'>I'm a Child</option>
+                        </select>
+                    </div>
+
+                    <h3>Residential Environment</h3>
+                    <div class="small-row">
+                        <div class="radio-group">
+                            <input type="radio" id="rural" value="1" name="environment" required><label for="rural">Rural</label><input type="radio" id="urban" value="0" name="environment" required><label for="urban">Urban</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="column">
+                    <h3>Height</h3>
+                    <div class="small-row">
+                        <input type="number" min="0" max="12" placeholder="Feet" name="feet" id="feet" class="text-input" step="0.1" required>
+                        <input type="number" min="0" max="11.99" placeholder="Inches" name="inches" id="inches" class="text-input" step="0.1" required>
+                    </div>
+
+                    <h3>Weight</h3>
+                    <div class="small-row">
+                        <input type="number" min="0" max="1000" placeholder="Pounds" name="weight" id="weight" class="text-input" step="0.1" required>
+                    </div>
+
+                    <h3>Smoking Habits</h3>
+                    <div class="small-row">
+                        <select name="smoke" id="smoke" class="dropdown-list" required>
+                            <option disabled selected value>-- Select --</option>
+                            <option value="smokes">Smoker</option>
+                            <option value="formerly smoked">Previous Smoker</option>
+                            <option value="never smoked">Never Smoked</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="small-row">
+                        <button type="submit" class="button-submit" onclick="formResults();">Submit Responses</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </body>
+
+    <script>
+        function formResults(){
+            var gender, age, hypertension, heartDisease, diabetes, marriage, work, environment, diabetes, height, weight, smoke;
+            gender = document.getElementById("gender").value;
+            age = document.getElementById("age").value;
+            hypertension = document.getElementByName("hypertension").value;
+            heartDisease = document.getElementByName("heart-disease").value;
+            diabetes = document.getElementByName("diabetes").value;
+            marriage = document.getElementByName("marriage").value;
+            work = document.getElementById("work").value;
+            environment = document.getElementById("environment").value;
+            diabetes = document.getElementById("diabetes").value;
+            height = document.getElementById("height").value;
+            weight = document.getElementById("weight").value;
+            smoke = document.getElementById("smoke").value;
+
+            document.write(gender);
+            document.write(age);
+            document.write(hypertension);
+            document.write(heartDisease);
+            document.write(diabetes);
+            document.write(marriage);
+            document.write(work);
+            document.write(environment);
+            document.write(diabetes);
+            document.write(height);
+            document.write(weight);
+            document.write(smoke);
+        }
+    </script>
+</html>
