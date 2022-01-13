@@ -33,9 +33,13 @@ Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and 
 
 ## Files
   Airbnb-Predictor: As a part of my data science journey, I decided it would be fun to take the AirBNB dataset and answer some questions I had about house prices.
+  
   IBM_Recommender: Recommendation engine built with IBM, part of Udacity Data Science Nanodegree
+  
   Stroke-Prediction-App:  I trained and deployed an XGBoost Classifier to predict whether or not a user is likely to suffer from a stroke.
+  
   disaster-pipeline: This is a website that displays statistics about tweets during a disaster, and predicts what type of disaster tweet a user inputted message is.
+  
   Data Scientist Nanodegree Certificate.pdf: My certificate certifying I passed every assignment and completed the course.
   
 <!-- CONTACT -->
