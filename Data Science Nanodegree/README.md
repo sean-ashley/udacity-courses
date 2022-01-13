@@ -29,7 +29,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## What I Did in This Course
-Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.
+Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud. The course can be found here: https://www.udacity.com/course/data-scientist-nanodegree--nd025
 
 ## Files
   Airbnb-Predictor: As a part of my data science journey, I decided it would be fun to take the AirBNB dataset and answer some questions I had about house prices.
