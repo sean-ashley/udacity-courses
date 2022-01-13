@@ -22,72 +22,22 @@
 
 <!-- PROJECT LOGO -->
 <br />
-  <h3 align="center">Airbnb Predictor</h3>
-
+  <h3 align="center">Deep Learning Nanodegree</h3>
+  
   <p align="center">
-    Predicting the prices of Airbnb homes in Boston and Seattle Using Kaggle Data Sets and Data Science!
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-## Read my Medium article!
-[When Data Science Meets Real Estate](https://sean-d-ashley.medium.com/when-data-science-meets-real-estate-d619d274c4fc)
+    Here are all of the projects I worked on in this course. They include numerous different deep learning related concepts, such convolutional networks , recurrent networks, and generative adversarial networks.
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-As a part of my data science journey, I decided it would be fun to take the AirBNB dataset and answer some questions I had about house prices.
-* How did housing costs change over time?
-* What are the most common words in listing descriptions?
-* What factors predict housing cost ?
-
-## Files
-* price-vs-date.ipynb: Jupyter Notebook exploring how the price of Airbnb's change over time.
-* most_common_words.ipynb: Jupyter Notebook visualizing the most common words used in Airbnb property descriptions. 
-* price_predictor.ipynb: Jupyter Notebook creating a random forest predictor and seeing which factors predict housing price.
-* portion_of_na.py Module that contains a function that gives the portion of na values in a column, used in all 3 notebooks
-* README.md: Markdown file describing the project.
-
-
-### Built With
-
-* [Seaborn](https://seaborn.pydata.org/)
-* [Pandas](https://pandas.pydata.org/)
-* [Scikit-Learn](https://scikit-learn.org/stable/)
-* [nltk](https://www.nltk.org/)
-
-
-
-
+## What I Did in This Course
+I Used PyTorch to build CNNs for image recognition, RNNs for sequence generation, GANs for image generation, and learnt how to deploy models accessible from a website using AWS SageMaker and Lambda.
+  
 
 <!-- CONTACT -->
 ## Contact
 
-Sean Ashley - sean.d.ashley@gmail.com
+Sean Ashley - sean.d.ashley@gmail.com , s2ashley@uwaterloo.ca
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Udacity](https://www.udacity.com/?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=8826748790_c&utm_term=87778505894&utm_keyword=udacity_e&gclid=CjwKCAiA_Kz-BRAJEiwAhJNY77_dDpsTYxJ0FMET1w-E349eyqMhQGFTz6i3ZY_dmqgFLaQn3BbA4xoCflMQAvD_BwE)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#about-the-project)
-* [1000 Most Common English Words](https://gist.github.com/deekayen/4148741#file-1-1000-txt-L2)
-* [How to count most common words in DataFrame]( https://stackoverflow.com/questions/29903025/count-most-frequent-100-words-from-sentences-in-dataframe-pandas)
-* [Seattle Airbnb data set](https://www.kaggle.com/airbnb/seattle)
-* [Boston airbnb data set](https://www.kaggle.com/airbnb/boston)
-
-Done as a part of the Udacity Data Science Nanodegree. All the work is my own, though I had to follow a rubric.
 
 
 
