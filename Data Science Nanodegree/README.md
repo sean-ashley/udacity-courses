@@ -27,10 +27,6 @@
   <p align="center">
     You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts,
 
-
-## Read my Medium article!
-[When Data Science Meets Real Estate](https://sean-d-ashley.medium.com/when-data-science-meets-real-estate-d619d274c4fc)
-
 <!-- ABOUT THE PROJECT -->
 ## About The Course
 Worked on numerous projects using Jupyter Notebooks, Scikit-Learn, and SQL, and learnt how to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.
